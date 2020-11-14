@@ -16,3 +16,4 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     Page<Product> findByNameContaining(@RequestParam("name") String name,Pageable pageable);
 
 }
+ 
